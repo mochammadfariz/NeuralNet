@@ -6,3 +6,4 @@ from keras.layers import Conv2D,MaxPooling2D
 import matplotlib.pyplot as plt
 import tensorflow as tf
 
+mnist

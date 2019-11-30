@@ -1,9 +1,6 @@
-import keras
-from keras.datasets import mnist
-from keras.models import Sequential
-from keras.layers import Dense,Dropout,Flatten,Activation
-from keras.layers import Conv2D,MaxPooling2D
-import matplotlib.pyplot as plt
-import tensorflow as tf
+import cv2
 
-mnist
+citra = cv2.imread('citrawarna/baboon.png',-1)
+if not citra is None:
+  cv2.imshow('gambar babon',citra)
+  cv2.waitKey(0)
